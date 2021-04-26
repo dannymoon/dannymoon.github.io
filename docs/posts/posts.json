@@ -22,15 +22,15 @@
     "description": "Welcome to our new blog, Danny's Blog. We hope you enjoy \nreading what we have to say!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Danny Moon",
+        "url": "https://dannymoon.github.io/"
       }
     ],
     "date": "2021-04-26",
     "categories": [],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-26T16:21:18-06:00",
+    "last_modified": "2021-04-26T16:36:29-06:00",
     "input_file": {}
   }
 ]
