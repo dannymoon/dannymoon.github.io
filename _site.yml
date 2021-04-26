@@ -3,6 +3,7 @@ title: "Danny's Blog"
 description: |
   Danny's Blog
 output_dir: "docs"
+base_url: https://dannymoon.github.io/
 navbar:
   right:
     - text: "Home"
