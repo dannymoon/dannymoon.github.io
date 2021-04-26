@@ -2,7 +2,7 @@ name: "dannymoon.github.io"
 title: "Danny's Blog"
 description: |
   Danny's Blog
-output_dir: "_site"
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
