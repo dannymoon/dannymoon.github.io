@@ -16,14 +16,5 @@
       <guid>https://dannymoon.github.io/posts/2021-04-26-my-first-testing</guid>
       <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
     </item>
-    <item>
-      <title>Welcome to Danny's Blog</title>
-      <dc:creator>Danny Moon</dc:creator>
-      <link>https://dannymoon.github.io/posts/welcome</link>
-      <description>Welcome to our new blog, Danny's Blog. We hope you enjoy 
-reading what we have to say!</description>
-      <guid>https://dannymoon.github.io/posts/welcome</guid>
-      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
-    </item>
   </channel>
 </rss>
