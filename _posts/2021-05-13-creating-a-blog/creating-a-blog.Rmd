@@ -1,7 +1,7 @@
 ---
-title: "My first testing"
+title: "Creating a blog"
 description: |
-  A short description of the post.
+  Simple tutorial on how to create a blog using distill package and github
 author:
   - name: Danny Moon
     
@@ -33,7 +33,6 @@ In R Studio, create a new project. When creating a new project, choose `version 
 
 ![](images/new_project.png)
 
-
 ![](images/choose_git.png)
 
 Paste the URL of your repo and select the directory that you want to save your file.
@@ -51,6 +50,8 @@ distill::create_blog(dir = getwd(), title = "your blog name")
 
 After you run the command and the blog files are created, you need to quit and restart the R studio.
 
-After you restart your R studio, you can find a `Build` tab on your right upper side pannel of R Studio. Click `Build` tab and click `Build Website`. 
+After you restart your R studio, you can find a `Build` tab on your right upper side panel of R Studio. Click `Build` tab and click `Build Website`. 
+
+
 
 
