@@ -1,6 +1,6 @@
 [
   {
-    "path": "posts/2021-04-26-my-first-testing/",
+    "path": "posts/2021-05-13-creating-a-blog/",
     "title": "My first testing",
     "description": "A short description of the post.",
     "author": [
@@ -9,11 +9,11 @@
         "url": {}
       }
     ],
-    "date": "2021-04-26",
+    "date": "2021-05-13",
     "categories": [],
-    "contents": "\nTesting my first blog post.\n\n\n\n",
+    "contents": "\nAs part of the senior project, I had to create a blog. I would like to show how I created this blog using distill package in R with github. First, open up R studio and install distill package.\n\n\ninstall.packages(\"distill\")\n\n\n\nNext, go to github.com and create a repo.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-26T16:31:20-06:00",
+    "last_modified": "2021-05-12T20:37:07-06:00",
     "input_file": {}
   }
 ]
