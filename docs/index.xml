@@ -9,10 +9,10 @@
     <generator>Distill</generator>
     <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>My first testing</title>
+      <title>Creating a blog</title>
       <dc:creator>Danny Moon</dc:creator>
       <link>https://dannymoon.github.io/posts/2021-05-13-creating-a-blog</link>
-      <description>A short description of the post.</description>
+      <description>Simple tutorial on how to create a blog using distill package and github</description>
       <guid>https://dannymoon.github.io/posts/2021-05-13-creating-a-blog</guid>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
     </item>

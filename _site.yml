@@ -11,3 +11,6 @@ navbar:
     - text: "About"
       href: about.html
 output: distill::distill_article
+collections:
+  posts:
+    citations: false

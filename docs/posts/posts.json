@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/2021-05-13-creating-a-blog/",
-    "title": "My first testing",
-    "description": "A short description of the post.",
+    "title": "Creating a blog",
+    "description": "Simple tutorial on how to create a blog using distill package and github",
     "author": [
       {
         "name": "Danny Moon",
@@ -11,9 +11,9 @@
     ],
     "date": "2021-05-13",
     "categories": [],
-    "contents": "\nAs part of the senior project, I had to create a blog. I would like to show how I created this blog using distill package in R with github. First, open up R studio and install distill package.\n\n\ninstall.packages(\"distill\")\n\n\n\nNext, go to github.com and create a repo.\n\n\n\n",
+    "contents": "\nAs part of the senior project, I had to create a blog. There are many different tools that you could use to create a blog, but I chose distill package in R to create my blog. I would like to show how I created this blog using distill package in R with github. This post will show you very basic of creating a blog and a blog post.\nFirst, open up R studio and install distill package.\n\n\ninstall.packages(\"distill\")\n\n\n\nNext, go to github.com and create a repo. Name your repo name as your_github_userid.github.io. My example shows invalid because I already have my repo named in that convention.\n\nAfter you create your repo, copy the url of your repo and open R Studio again. \nIn R Studio, create a new project. When creating a new project, choose version control and choose git options.\n\n\nPaste the URL of your repo and select the directory that you want to save your file.\n\nAfter the project is created, run the following command to create a blog using distill package.\n\n\ndistill::create_blog(dir = getwd(), title = \"your blog name\")\n\n\n\ndir command let you choose where you want to create a blog. In this case, I’m creating a blog file to my current working directory and that is why I’m using getwe(). Name your blog in title.\nAfter you run the command and the blog files are created, you need to quit and restart the R studio.\nAfter you restart your R studio, you can find a Build tab on your right upper side panel of R Studio. Click Build tab and click Build Website.\nWhen it’s done, go to Files and find _site.yml and open it.\nChange the output_dir from site to docs.\nThen, push everything to github. After you push it to your github, go to your repo and click Settings.\nUnder settings, go to pages. Under Source change None to master. Change root to docs and click save. Then you will see something like this.\n Copy the url of your site that is shown in the above image and go to _site.yml in R Studio. Under the output_dir add a line and type base_url: and paste the url of yoru site. Save the _site.yml.\nNow let’s create a new blog post. Run the following command in your console.\n\n\ndistill::create_post(\"creating a blog\")\n\n\n\nYou will see a Rmd file with the name you just named for your post. I assume you are familiar with Rmd files and won’t explain much about editing your yml of Rmd. Edit yml of your Rmd file so it shows your name and correct url and etc.\nOnce you are done with editing your post, knit your Rmd file. Go to Build tab and click Build Website again. Then push everything to github. Now you can see your blog post if you go to your website’s url.\n\nGo to main page of your repo and click the gear button next to the about section. You can add a description of your repo and paste your website’s url under website field and save changes.\n\nYou have to do this process (knitting your rmd file, build website, and push it to github) whenever you create a new post. You can changed the theme of your Rmd file to change the theme of your blog and post. For more information about distill package, please visit https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-05-12T20:37:07-06:00",
+    "last_modified": "2021-05-13T20:46:10-06:00",
     "input_file": {}
   }
 ]
