@@ -7,7 +7,15 @@
     <description>Danny's Blog
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>What is RASA?</title>
+      <dc:creator>Danny Moon</dc:creator>
+      <link>https://dannymoon.github.io/posts/2021-06-01-what-is-rasa</link>
+      <description>Open Source AI</description>
+      <guid>https://dannymoon.github.io/posts/2021-06-01-what-is-rasa</guid>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Creating a blog</title>
       <dc:creator>Danny Moon</dc:creator>
