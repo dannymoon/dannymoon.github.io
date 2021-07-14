@@ -7,7 +7,15 @@
     <description>Danny's Blog
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How to set up RASA</title>
+      <dc:creator>Danny Moon</dc:creator>
+      <link>https://dannymoon.github.io/posts/2021-07-01-how-to-set-up-rasa</link>
+      <description>A simple tutorial of setting up RASA opensource</description>
+      <guid>https://dannymoon.github.io/posts/2021-07-01-how-to-set-up-rasa</guid>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>What is RASA?</title>
       <dc:creator>Danny Moon</dc:creator>

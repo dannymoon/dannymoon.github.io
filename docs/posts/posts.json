@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-07-01-how-to-set-up-rasa/",
+    "title": "How to set up RASA",
+    "description": "A simple tutorial of setting up RASA opensource",
+    "author": [
+      {
+        "name": "Danny Moon",
+        "url": {}
+      }
+    ],
+    "date": "2021-07-01",
+    "categories": [],
+    "contents": "\nIn this post, I’ll show you a basic set up tutorial of setting up RASA opensource on your local machine. I’m using mac OS, so it can be little different for Window users.\n1. Python Environment Setup\nFirst, python3 and pip3 are required to follow the instructions. If you have both of them, make a directory where you want to save all your chatbot files. From the directory, open a terminal.\nCheck if your Python environment is already configured.\n\nIf these packages are already installed, these commands should display version numbers for each step, and you can skip to the next step.\n2. Virtual Environment Setup\nWe don’t want to install packages for this project system-wide, so we will install packages for this project in a virtual environment. Reason for this is that we might want to run different versions of packages for different projects. They also let you install packages without root privileges.\nCreate a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it.\n\nActivate the virtual environment.\n\n3. Install Rasa Open Source\n Once this is done, you can run rasa init to initiate a rasa project.\nYou can find more detailed instructions of installation here. https://rasa.com/docs/rasa/installation/\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-07-14T10:55:30-06:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-06-01-what-is-rasa/",
     "title": "What is RASA?",
     "description": "Open Source AI",
