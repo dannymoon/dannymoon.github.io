@@ -6,7 +6,11 @@
       "description": "Danny's blog for Data Science",
       "author": [],
       "contents": "\n\n\n\n",
+<<<<<<< HEAD
       "last_modified": "2021-07-14T11:02:42-06:00"
+=======
+      "last_modified": "2021-07-14T11:02:06-06:00"
+>>>>>>> b43cf8d0da361d686d2fb05693edbe18e8b6689e
     },
     {
       "path": "index.html",
